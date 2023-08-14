@@ -1,9 +1,12 @@
 import "./App.css";
-
+//import component
+import Board from "./components/Board";
 function App() {
   return (
     <>
-      <h1>lorem apsum whatever</h1>
+      <div>
+        <Board />
+      </div>
     </>
   );
 }

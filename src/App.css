@@ -1,7 +1,28 @@
-body {
-  background: blue;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
 
 h1 {
-  font-size: 40px;
+  font-family: "Inter";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  background: #fff;
+  border: 2px solid #000000;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+.board {
+  display: flex;
+  flex-direction: column;
 }
